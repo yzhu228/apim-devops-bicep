@@ -5,7 +5,7 @@
         "verbose": true,
         "rules": {
           "no-hardcoded-env-urls": {
-            "level": "error"
+            "level": "warning"
           },
           "no-hardcoded-location": {
               "level": "error"

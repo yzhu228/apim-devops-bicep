@@ -1,8 +1,8 @@
 <policies>
     <inbound>
-        <cors allow-credentials="true">
+        <cors allow-credentials="false">
             <allowed-origins>
-                <origin>https://APIM-DEV-PORTAL-URL</origin>
+                <origin>*</origin>
             </allowed-origins>
             <allowed-methods preflight-result-max-age="300">
                 <method>*</method>

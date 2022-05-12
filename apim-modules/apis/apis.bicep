@@ -1,11 +1,11 @@
-
 param apimInstance object
 param apimEnv string
 
-module javaApi 'javaAPI/javaApi.bicep' = {
-  name: 'javaApi'
+module testerFunctionApi 'TesterFunctionApi/TesterFunctionApi.bicep' = {
+  name: 'funcApi'
   params: {
-    apimServiceName: apimInstance.name
-    apimEnv: apimEnv
+    apimName: apimInstance.name
+    funcAppName: 'FuncAppWithSwagger'
+    apiEnv: apimEnv
   }
 }

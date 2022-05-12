@@ -55,7 +55,6 @@ module shared 'apim-modules/shared/shared.bicep' = {
   params: {
     apimInstance: serviceConfig.outputs.apimInstance
     apimEnv: apimEnv
-    
   }
 }
 
